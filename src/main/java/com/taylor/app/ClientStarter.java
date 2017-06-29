@@ -27,7 +27,6 @@ public class ClientStarter {
     }
     @RequestMapping("/hello")
     String helloString() {
-
         return "Hello " + bar + "!"+content;
     }
 
